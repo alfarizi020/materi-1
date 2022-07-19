@@ -1,4 +1,3 @@
-
 <?php
 class mobil {
     public $merk, $tipe, $mesin, $max_speed;
