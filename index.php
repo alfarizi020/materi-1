@@ -10,7 +10,7 @@ class mobil {
     }
 }
 
-$bmw = new mobil;
+$bmw = new Mobil;
 $bmw->merk = "BMW";
 $bmw->tipe = "320i";
 $bmw->mesin = "2000cc";
@@ -26,8 +26,8 @@ echo "$bmw2->tipe";
 echo "<br>";
 echo "$bmw->tipe";
 
-if($bmw === $bm2){
-    echo"Sama";
+if($bmw === $bmw2){
+    echo "Sama";
 }else{
-    echo"Tidak";
+    echo "Tidak";
 }
